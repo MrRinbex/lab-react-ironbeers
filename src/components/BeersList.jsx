@@ -34,7 +34,7 @@ const BeersList = (props) => {
                 <h3>{beer.attenuation_level}</h3>
                 <p>{beer.description}</p>
                 <h3>{beer.contributed_by}</h3>
-                <Link to="/beers/:beerId">Beer Details</Link>
+                <Link to={`/beers/${beer._id}`}>Beer Details</Link>
                 </div>
                 </div>
                 </>
